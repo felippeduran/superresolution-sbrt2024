@@ -1,11 +1,13 @@
 # Avaliação de funções-custo na super-resolução de imagens para jogos eletrônicos (SBrT 2024)
 ## Complementary Resource
 
-This is a complementary resource for the article "Avaliação de funções-custo na super-resolução de imagens para jogos eletrônicos" published in the "Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT) 2024". Here you can find the raw results from experiments and additional image samples.
+This is a complementary resource for the article "Avaliação de funções-custo na super-resolução de imagens para jogos eletrônicos" published in the "Simpósio Brasileiro de Telecomunicações e Processamento de Sinais (SBrT) 2024". Here you can find additional image samples and results.
 
 ## Instructions
 
-The repository is organized with a [result_samples](result_samples) folder that contains extracted samples from the experiments. Their naming should describe the key parameters that generated the image and follow the format `<dataset>_<main_experiment>_<sample_id>_<run_parameters>.png`. Examples:
+The repository is organized with a [result_samples](result_samples) folder that contains extracted samples from experiments. Their naming should describe the key parameters that generated the image and follow the format `<dataset>_<main_experiment>_<sample_id>_<run_parameters>.png`. For more details on how they were obtained, please refer to the original article.
+
+Examples:
   * `viking_layers_2_x.png`: indicates the model input image of `sample_id` 2 for the perceptual layers experiment.
   * `viking_layers_1_block5_1.png`: indicates the model output image of `sample_id` 1 for the perceptual layers experiment when using block5_1 as the perceptual loss output during training.
   * `viking_losses_1_mae.png`: indicates the model output image of `sample_id` 1 for the weighted losses experiment when using a pure MAE loss.
