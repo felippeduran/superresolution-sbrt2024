@@ -7,9 +7,9 @@ This is a complementary resource for the article "Avaliação de funções-custo
 
 The repository is organized with a [result_samples](result_samples) folder that contains extracted samples from the experiments. Their naming should describe the key parameters that generated the image and follow the format `<dataset>_<main_experiment>_<sample_id>_<run_parameters>.png`. Examples:
   * `viking_layers_2_x.png`: indicates the model input image of `sample_id` 2 for the perceptual layers experiment.
-  * `viking_layers_block5_1.png`: indicates the model output image of `sample_id` 1 (ommited) for the perceptual layers experiment when using block5_1 as the perceptual loss output during training.
-  * `viking_loss_mae.png`: indicates the model output image of `sample_id` 1 (ommited) for the weighted losses experiment when using a pure MAE loss.
-  * `viking_loss_2_75gloss+25percep.png`: indicates the model output image of `sample_id` 2 for the weighted losses experiment when using 0.75 * G-loss + 0.25 perceptual loss.
+  * `viking_layers_1_block5_1.png`: indicates the model output image of `sample_id` 1 for the perceptual layers experiment when using block5_1 as the perceptual loss output during training.
+  * `viking_losses_1_mae.png`: indicates the model output image of `sample_id` 1 for the weighted losses experiment when using a pure MAE loss.
+  * `viking_losses_2_75gloss+25percep.png`: indicates the model output image of `sample_id` 2 for the weighted losses experiment when using 0.75 * G-loss + 0.25 perceptual loss.
 
 ## References
 
